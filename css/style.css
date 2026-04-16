@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: darkmagenta;
+    background-color: rgb(114, 85, 114);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -24,5 +24,5 @@ input {
 
 input[type="text"], input[type="number"], input[type="date"], input[type="file"], textarea {
     width: 400px;
-    
+
 }
