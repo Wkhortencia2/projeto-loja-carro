@@ -5,15 +5,15 @@
 }
 
 body {
-    background-color: rgb(0, 0, 0);
+    background-color: #f8b
 }
 
 h1, h2, h3, h4, h5, h6 {
-    color: azure;
+    color: #333;
 }
 
 p, label {
-    color: rgb(255, 255, 255);
+    color: #444;
 }
 input {
     border: none;
