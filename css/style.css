@@ -42,8 +42,9 @@ textarea {
     color: #fff;
     margin-top: 0;
 }
-.form-titulo h1 {
+.form-titulo  {
     color: #ff0000;
+    margin-bottom: 15px;
 }
  
 .form-header {
@@ -78,4 +79,14 @@ textarea {
 }
 .form-body {
     padding: 30px;
+}
+.form-body p {
+margin-bottom: 15px;
+}
+
+.campo-obrigatorio {
+    color: red;
+}
+.caixaInputs {
+    margin-bottom: 35px;
 }
