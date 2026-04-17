@@ -74,5 +74,8 @@ textarea {
 }
 
 .titulo2 {
-    color: #673ab7;
+    color: #000000;
+}
+.form-body {
+    padding: 30px;
 }
