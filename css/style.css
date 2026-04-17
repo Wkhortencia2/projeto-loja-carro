@@ -53,5 +53,9 @@ textarea {
     background-color: #fff;
     width: 60%;
     margin: 0 auto;
-    position
+    position: relative;
+    top: -46px;
 }
+ p {
+    color: #ff0000;
+ }
