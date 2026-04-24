@@ -121,9 +121,9 @@ margin-bottom: 15px;
     color: rgb(255, 255, 255);
     border-color: rgb(0, 215, 243);
 }
-.form:hover{
+.form:hover p {
      color: rgb(0, 0, 0);
-     border-color: #00f7ff;
+     border-color: #00b7ff;
 
     } 
     
