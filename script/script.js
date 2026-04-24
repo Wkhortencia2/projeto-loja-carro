@@ -26,7 +26,11 @@ function salvarCarros(event) {
     adicionarNatela(carro);
 
     document.querySelector("form").reset();
+
+    
 }
+    function adicionarNatela(carro){
+        
+    }
 
 
-}

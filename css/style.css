@@ -124,7 +124,9 @@ margin-bottom: 15px;
 .form:hover{
      color: aquamarine;
 
-     .btn-submit:hover {
-        border: #000000;
-     }
+     
+}
+
+.btn-submit:hover{
+    border-color: cyan;
 }
