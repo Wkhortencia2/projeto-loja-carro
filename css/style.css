@@ -124,6 +124,8 @@ margin-bottom: 15px;
 .form:hover{
      color: aquamarine;
 
-     
+    .h3 {
+        color: #000000;
+    } 
 }
 

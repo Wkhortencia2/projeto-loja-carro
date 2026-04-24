@@ -37,7 +37,11 @@ function salvarCarros(event) {
         card.innerHTML = `
         <h3>${carro.titulo}<h3>
         <p><strong>Preço:</strong> R$ ${carro.preco}</p>
-        `
+        <p><strong>Marca:</strong> R$ ${carro.Marc}</p>
+        <p><strong>Modelo:</strong> R$ ${carro.Modelo}</p>
+        <p><strong>Câmbio:</strong> R$ ${carro.Cambio}</p>
+        `;
+        lista.appendChild(card);
 
 
     }
