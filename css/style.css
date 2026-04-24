@@ -60,7 +60,7 @@ textarea {
     top: -46px;
 }
  .form-header p {
-    color: #000000;
+    color: #00f7ff;
     border-bottom: 2px solid #ffffff;
     width: 100px;
     text-align: center;
@@ -122,7 +122,7 @@ margin-bottom: 15px;
     border-color: rgb(0, 215, 243);
 }
 .form:hover{
-     color: aquamarine;
+     color: rgb(0, 0, 0);
 
     .h3 {
         color: #003330;
