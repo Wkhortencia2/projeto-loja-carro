@@ -15,7 +15,7 @@ function salvarCarros(event) {
         titulo,
         preco,
         marca,
-        modelo, 
+        modelo,
         cambio
     };
 
