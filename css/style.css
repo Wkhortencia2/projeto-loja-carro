@@ -35,7 +35,7 @@ textarea {
 .cabecalho {
     height: 160px;
     padding: 20px;
-    background-color: rgb(0, 0, 0);
+    background-color: rgba(7, 97, 124, 0.521);
 }
 
 .cabecalho h3 {
