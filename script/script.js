@@ -31,7 +31,14 @@ function salvarCarros(event) {
 }
     function adicionarNatela(carro){
         let lista = document.getElementById('listarCarros');
-        let card = document.createElement
+        let card = document.createElement('div');
+        card.classList.add('card');
+
+        card.innerHTML = `
+        <h3>${carro.titulo}<h3>
+        <p><strong>Preço:</strong> R$ ${carro.preco}</p>
+        `
+
 
     }
 
