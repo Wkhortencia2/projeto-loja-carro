@@ -48,7 +48,7 @@ textarea {
 }
  
 .form-header {
-    border-bottom: 1px solid #000000;
+    border-bottom: 1px solid #00aa2b;
    height: 45px;
 
 }
@@ -60,7 +60,7 @@ textarea {
     top: -46px;
 }
  .form-header p {
-    color: #00c1fc;
+    color: #000000;
     border-bottom: 2px solid #ffffff;
     width: 100px;
     text-align: center;
