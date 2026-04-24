@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Venda seu carro</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
     <div class="container">
         <header class="cabecalho">
@@ -13,47 +15,44 @@
         </header>
         <div class="form-container">
             <div class="form-header">
-                <p class="form">Formulário</p>
+                <p>Formulário</p>
             </div>
+
             <div class="form-body">
-                <h1 class="form-titulo">Venda fácil seu carro</h1>
-                <p class="titulo2">Descreva as características do seu carro e marque os opcionais que ele possui</p>
+                <h1 class="titulo-form">Venda fácil seu carro</h1>
+                <p>Descreva as características do seu carro e marque os opcionais que ele possui.</p>
                 <form>
                     <div class="caixaInputs">
                         <label for="title">Título do anúncio <span class="campo-obrigatorio">*</span></label>
-                        <input type="text" name="title" id="title" class="block" placeholder="Digite um título" minlength="1" maxlength="30" required>
+                        <input type="text" name="title" id="title" class="block"
+                            placeholder="Digite um título para o anúncio">
                     </div>
-
                     <div class="caixaInputs">
                         <label for="preco">Preço <span class="campo-obrigatorio">*</span></label>
-                        <input type="number" name="preco" id="preco" class="block" placeholder="Digite o preço" required>
+                        <input type="number" name="preco" id="preco" class="block" placeholder="Digite o preço">
                     </div>
-
                     <div class="caixaInputs">
-                        <label for="descricao">Descrição</label>
-                        <textarea name="descricao" id="descricao" class="block" placeholder="Faça a descrição do seu veículo aqui"></textarea>
+                        <label for="descricao">Descrição <span class="campo-obrigatorio">*</span></label>
+                        <textarea name="descricao" id="descricao" class="block"
+                            placeholder="Digite a descrição de seu veículo"></textarea>
                     </div>
-
                     <div class="caixaInputs">
                         <label for="marca">Marca <span class="campo-obrigatorio">*</span></label>
-                        <input type="text" name="marca" id="marca" class="block" placeholder="Digite a marca" required>
+                        <input type="text" name="marca" id="marca" class="block" placeholder="Digite a marca">
                     </div>
-
                     <div class="caixaInputs">
                         <label for="modelo">Modelo <span class="campo-obrigatorio">*</span></label>
-                        <input type="text" name="modelo" id="modelo" class="block" placeholder="Digite o modelo" required>
+                        <input type="text" name="modelo" id="modelo" class="block" placeholder="Digite o modelo">
                     </div>
-
                     <div class="caixaInputs">
-                        <label for="quilometragem">quilometragem <span class="campo-obrigatorio">*</span></label>
-                        <input type="number" name="quilometragem" id="quilometragem" class="block" placeholder="Digite a quilometragem" required>
+                        <label for="kilometragem">Kilometragem <span class="campo-obrigatorio">*</span></label>
+                        <input type="number" name="kilometragem" id="kilometragem" class="block"
+                            placeholder="Digite a kilometragem">
                     </div>
-
                     <div class="caixaInputs">
-                        <label for="data-compra">Data de Compra <span class="campo-obrigatorio">*</span></label>
-                        <input type="date" name="data-compra" id="data-compra" class="block" required>
+                        <label for="data-compra">Data de compra<span class="campo-obrigatorio">*</span></label>
+                        <input type="date" name="data-compra" id="data-compra" class="block">
                     </div>
-
                     <div class="caixaInputs">
                         <p>Tipo de Câmbio: <span class="campo-obrigatorio">*</span></p>
                         <input type="radio" name="marcha" id="manual">
@@ -61,7 +60,6 @@
                         <input type="radio" name="marcha" id="auto">
                         <label for="auto">Automático</label>
                     </div>
-
                     <div class="caixaOpcional">
                         <p>Opcionais</p>
                         <ul class="listaOpcionais">
@@ -74,44 +72,45 @@
                                 <label for="alarme">Alarme</label>
                             </li>
                             <li>
-                                <input type="checkbox" name="opcional[]" id="ar-condicionado" value="ar-condicionado">
-                                <label for="ar-condicionado">Ar condicionado</label>
+                                <input type="checkbox" name="opcional[]" id="ac" value="ac">
+                                <label for="ac">Ar Condicionado</label>
                             </li>
                             <li>
-                                <input type="checkbox" name="opcional[]" id="Camera-re" value="Camera-re">
-                                <label for="Camera-re">Camera de ré</label>
+                                <input type="checkbox" name="opcional[]" id="camera-re" value="camera-re">
+                                <label for="camera-re">Câmera de Ré</label>
                             </li>
                         </ul>
                     </div>
                     <div class="caixaOpcional">
+
                         <ul class="listaOpcionais">
                             <li>
-                                    <input type="checkbox" name="opcional[]" id="assistente-pista" value="assistente-pista">
-                                    <label for="assistente-pista">Assistente De Pista</label>
+                                <input type="checkbox" name="opcional[]" id="assistente-pista" value="assistente-pista">
+                                <label for="assistente-pista">Assistente de Pista</label>
                             </li>
                             <li>
-                                    <input type="checkbox" name="opcional[]" id="Partida-chave" value="Partida-chave">
-                                    <label for="Partida-chave">Partida sem chave</label></li>
+                                <input type="checkbox" name="opcional[]" id="partida-sem-chave"
+                                    value="partida-sem-chave">
+                                <label for="partida-sem-chave">Partida sem Chave</label>
+                            </li>
                             <li>
-                                <input type="checkbox" name="opcional[]" id="Smartphone" value="Smartphone">
-                                    <label for="Smartphone">Smartphone</label>
+                                <input type="checkbox" name="opcional[]" id="smartphone" value="smartphone">
+                                <label for="smartphone">Integração com Celular</label>
                             </li>
                             <li>
                                 <input type="checkbox" name="opcional[]" id="banco-couro" value="banco-couro">
-                                    <label for="banco-couro">banco de couro</label>
+                                <label for="banco-couro">Banco de Couro</label>
                             </li>
                         </ul>
                     </div>
-
-                                    <div class="caixaInputs">
-                                        <p>Fotos do carro <span class="campo-obrigatorio">*</span>*</p>
-                                         <input type="file" name="imagem" id="imagem" multiple accept="image/png, image/jpg" required>                    
-                 </div>
-                 <input type="submit" value="Enviar" class="btn-submit">
+                    <div class="caixaInputs">
+                        <p>Fotos do carro <span class="campo-obrigatorio">*</span></p>
+                        <input type="file" name="images" id="images" multiple accept="image/png, image/jpg">
+                    </div>
+                    <input type="submit" value="Enviar" class="btn-submit">
                 </form>
             </div>
         </div>
-    </div>
-    <script src="script/"></script>
 </body>
+
 </html>
