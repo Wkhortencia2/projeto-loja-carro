@@ -35,6 +35,7 @@ function salvarCarros(event) {
         card.classList.add('card');
 
         card.innerHTML = `
+        <img src = 'https://picsum.photos/250/150?random = ${Math.random()}'>
         <h3>${carro.titulo}<h3>
         <p><strong>Preço:</strong> R$ ${carro.preco}</p>
         <p><strong>Marca:</strong> R$ ${carro.marca}</p>
@@ -46,4 +47,10 @@ function salvarCarros(event) {
 
     }
 
+    window.onload = function () {
+    let carros = JSON.parse(localStorage.getItem("carros")) || [];
 
+    carros.forEach(carro => {
+        adicionarNaTela(carro);
+    }); 
+    }
