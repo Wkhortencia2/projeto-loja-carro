@@ -126,7 +126,15 @@ margin-bottom: 15px;
      border-color: #00b7ff;
 
     } 
-    
+      
+
+hr {
+    margin-top: 20px;
+    height: 3px;
+    background: linear-gradient(to right, transparent, #00ffd5, transparent);
+    margin: 20px 0;
+    border: none;
+}
         
     
 
