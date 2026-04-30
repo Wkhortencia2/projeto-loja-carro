@@ -136,4 +136,20 @@ hr {
     color:#00ffd5;
 }
 
+#listarCarros {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
 
+.card {
+    width: 250px;
+    background: #00ffd5;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(6, 49, 88, 0.5);
+}
+.card img {
+    width: 100%;
+    border-radius: 8px;
+}
