@@ -35,7 +35,7 @@ function salvarCarros(event) {
         card.classList.add('card');
 
         card.innerHTML = `
-        <img src = 'https://picsum.photos/250/150?random = ${Math.random()}'>
+        <img src = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaQgnC09O5PytrE9lsGArIqLmE2ePvtPWtUA&s'>
         <h3>${carro.titulo}<h3>
         <p><strong>Preço:</strong> R$ ${carro.preco}</p>
         <p><strong>Marca:</strong> R$ ${carro.marca}</p>
