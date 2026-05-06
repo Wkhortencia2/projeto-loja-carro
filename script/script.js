@@ -4,18 +4,25 @@ function salvarCarros(event) {
 
     let titulo = document.getElementById('title').value;
     let preco = document.getElementById('preco').value;
+    let descricao = document.getElementById('descricao').value;
     let marca = document.getElementById('marca').value;
     let modelo = document.getElementById('modelo').value;
+    let kilometragem = document.getElementById('kilometragem').value;
+    let data_compra = document.getElementById('data_compra').value;
 
     let cambioSelecionado = document.querySelector('input[name="marcha"]:checked');
 
     let cambio = cambioSelecionado ? cambioSelecionado.id : "Não informado";
 
         let carro = {
+         id: Date.now(),
         titulo,
         preco,
+        descricao,
         marca,
         modelo,
+        kilometragem,
+        data_compra,
         cambio
     };
 
